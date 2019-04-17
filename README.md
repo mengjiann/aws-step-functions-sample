@@ -1,6 +1,6 @@
 # Sample Project for AWS Step Functions
 
-This is to demonstrate the usage of several AWS Lambda functions to create a workflow on AWS Step Function.
+This is to demonstrate the usage of several AWS Lambda functions to create a workflow on AWS Step Function. Terraform configuration files are also provided to simplify the process of setting up the required AWS resources.
 
 # AWS Lambda Function
 - power-of-number-lambda - To calculate the power of a number.
