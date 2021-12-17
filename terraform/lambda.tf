@@ -42,7 +42,7 @@ resource "aws_lambda_function" "power-of-number-lambda" {
   function_name    = "step-functions-sample-power-of-number"
   role             = "${aws_iam_role.iam_for_lambda.arn}"
   handler          = "index.handler"
-  runtime          = "nodejs8.10"
+  runtime          = "nodejs14.x"
 }
 
 resource "aws_lambda_function" "random-number-generator-lambda" {
@@ -50,5 +50,5 @@ resource "aws_lambda_function" "random-number-generator-lambda" {
   function_name    = "step-functions-sample-random-number-generator"
   role             = "${aws_iam_role.iam_for_lambda.arn}"
   handler          = "index.handler"
-  runtime          = "nodejs8.10"
+  runtime          = "nodejs14.x"
 }
